@@ -31,7 +31,7 @@ Outbound internet access is handled via a Regional NAT Gateway, while the databa
 
 - **Security Group Chaining**
   - **sg-alb** → Allows HTTP (80) from 0.0.0.0/0  
-  - **sg-app** → Allows HTTP (80) from sg-alb and SSH (22) from sg-bastian  
+  - **sg-app** → Allows HTTP (80) from sg-alb and SSH (22) from sg-bastion  
   - **sg-db** → Allows MySQL (3306) from sg-app only  
   - **sg-bastion** → Allows SSH (22) from all internet (0.0.0.0/0)  
 
