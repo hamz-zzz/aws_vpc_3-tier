@@ -98,3 +98,17 @@ Removing the ALB security group from the app tier results in a 504 Gateway Timeo
 - Load balancing (Layer 7)  
 - RDS Multi-AZ architecture  
 - Controlled failure testing and validation  
+
+---
+
+## Supporting Artifacts
+
+This repository includes supporting materials used to validate and document the deployment:
+
+- **screenshots/**  
+  Contains evidence of architecture behavior, including load balancing, failover testing, database connectivity, NAT gateway routing, and security group validation.
+
+- **configs/**  
+  Contains the EC2 user data scripts used to initialize and configure application instances during deployment.
+
+These artifacts provide reproducibility and verification of the implemented 3-tier architecture.
