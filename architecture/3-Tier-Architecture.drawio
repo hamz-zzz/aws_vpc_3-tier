@@ -19,19 +19,19 @@
         <mxCell id="n1LGfgK-t4JClt2Esvs7-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=left;spacingLeft=10;" value="Public Subnet A&#xa;(10.0.1.0/24)" vertex="1">
           <mxGeometry height="180" width="360" x="60" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="n1LGfgK-t4JClt2Esvs7-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=left;spacingLeft=10;" value="Public Subnet B&#xa;(10.0.2.0/24)" vertex="1">
+        <mxCell id="n1LGfgK-t4JClt2Esvs7-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=right;spacingLeft=10;" value="Public Subnet B&lt;br&gt;(10.0.2.0/24)" vertex="1">
           <mxGeometry height="180" width="360" x="540" y="370" as="geometry" />
         </mxCell>
         <mxCell id="n1LGfgK-t4JClt2Esvs7-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=left;spacingLeft=10;" value="App Subnet A (Private)&#xa;(10.0.11.0/24)" vertex="1">
           <mxGeometry height="180" width="360" x="60" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="n1LGfgK-t4JClt2Esvs7-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=left;spacingLeft=10;" value="App Subnet B (Private)&#xa;(10.0.12.0/24)" vertex="1">
+        <mxCell id="n1LGfgK-t4JClt2Esvs7-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=right;spacingLeft=10;" value="App Subnet B (Private)&lt;br&gt;(10.0.12.0/24)" vertex="1">
           <mxGeometry height="180" width="360" x="540" y="670" as="geometry" />
         </mxCell>
         <mxCell id="n1LGfgK-t4JClt2Esvs7-110" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=left;spacingLeft=10;" value="DB Subnet A (Private)&#xa;(10.0.21.0/24)" vertex="1">
           <mxGeometry height="180" width="360" x="60" y="1030" as="geometry" />
         </mxCell>
-        <mxCell id="n1LGfgK-t4JClt2Esvs7-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=left;spacingLeft=10;" value="DB Subnet B (Private)&#xa;(10.0.22.0/24)" vertex="1">
+        <mxCell id="n1LGfgK-t4JClt2Esvs7-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2F3;strokeColor=#007DBC;verticalAlign=top;align=right;spacingLeft=10;" value="DB Subnet B (Private)&lt;br&gt;(10.0.22.0/24)" vertex="1">
           <mxGeometry height="180" width="360" x="540" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="n1LGfgK-t4JClt2Esvs7-112" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws4.nat_gateway;fillColor=#ED7100;strokeColor=none;" value="Regional NAT Gateway&#xa;(HA, Multi-AZ, Auto-expanding)" vertex="1">
