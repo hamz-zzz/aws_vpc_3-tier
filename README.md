@@ -40,30 +40,30 @@ Outbound internet access is handled via a Regional NAT Gateway, while the databa
 
 ### Load Balancing Validation
 
-![Browser Test](screenshots/9.1 Browser Test.png)
+![Browser Test](screenshots/9-1-browser-test.png)
 
 Traffic is distributed across both App Server A and App Server B via the ALB.
 
 
 ### Instance Failure Simulation
 
-![Stopped Instance](screenshots/9.2.1 Stopped Instance A.png)
-![Health Check](screenshots/9.2.2 Instance A Health Check.png)
-![Failover](screenshots/9.2.3 Failover to Instance B.png)
+![Stopped Instance](screenshots/9-2-1-stopped-instance-a.png)
+![Health Check](screenshots/9-2-2-instance-a-health-check.png)
+![Failover](screenshots/9-2-3-failover-to-instance-b.png)
 
 After stopping one instance, traffic continued to be served by the remaining healthy instance.
 
 
 ### App → RDS Connectivity
 
-![DB Connection](screenshots/7.6 Connecting to DB.png)
+![DB Connection](screenshots/7-6-connecting-to-db.png)
 
 Application instances successfully connect to the RDS endpoint over port 3306 using private networking.
 
 
 ### Outbound Internet Access
 
-![NAT](screenshots/9.3 App Instance + Bastion Host + NAT.png)
+![NAT](screenshots/9-3-app-instance-bastion-host-nat.png)
 
 Private app instances access the internet via the Regional NAT Gateway.
 
@@ -72,8 +72,8 @@ Private app instances access the internet via the Regional NAT Gateway.
 
 ### ALB → App Security Group Misconfiguration
 
-![SG Change](screenshots/10.1.2 Updated app-sg.png)
-![Error](screenshots/10.1.3 504 Error.png)
+![SG Change](screenshots/10-1-2-updated-app-sg.png)
+![Error](screenshots/10-1-3-504-error.png)
 
 Removing the ALB security group from the app tier results in a 504 Gateway Timeout, demonstrating dependency on correct security group chaining.
 
