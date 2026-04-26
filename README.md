@@ -1,4 +1,4 @@
-# aws_vpc-3-tier
+# AWS VPC 3-Tier Architecture
 
 ## Architecture Diagram
 
