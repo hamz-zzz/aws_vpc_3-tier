@@ -4,9 +4,7 @@
 
 ![Architecture](architecture/3-Tier-Architecture.svg)
 
-This project implements a highly available 3-tier architecture in AWS using a custom VPC.  
-Traffic enters through an Application Load Balancer, is distributed across EC2 instances in private subnets, and connects to a Multi-AZ RDS MySQL database.  
-Outbound internet access is handled via a Regional NAT Gateway, while the database layer remains isolated.
+This project implements a highly available 3-tier architecture in AWS using a custom VPC.   Traffic enters through an Application Load Balancer, is distributed across EC2 instances in private subnets, and connects to a Multi-AZ RDS MySQL database.   Outbound internet access is handled via a Regional NAT Gateway, while the database layer remains isolated.
 
 ---
 
